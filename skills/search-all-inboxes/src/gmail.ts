@@ -37,7 +37,6 @@ export async function searchGmail({ query, from, to }: InboxSearchParams): Promi
     const res = await gmail.users.messages.list({
       userId: 'me',
       q: gmailQuery,
-      maxResults: 10,
     });
     if (!res.data.messages) return results;
 
