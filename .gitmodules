@@ -1,0 +1,3 @@
+[submodule "hooks"]
+	path = hooks
+	url = https://github.com/lukas8219/agent-hooks.git
